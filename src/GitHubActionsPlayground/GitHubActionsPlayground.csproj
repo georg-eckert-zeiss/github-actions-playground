@@ -1,0 +1,61 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;netcoreapp3.1;net48;net6.0</TargetFrameworks>
+    <LangVersion>latest</LangVersion>
+    <PackageVersion>0.0.1</PackageVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Label="Assembly information">
+    <AssemblyTitle>A test project for reusable GitHub actions.</AssemblyTitle>
+    <AssemblyName>GitHubActionsPlayground</AssemblyName>
+    <AssemblyVersion>0.0.1</AssemblyVersion>
+    <Company>Carl Zeiss Industrielle Messtechnik GmbH</Company>
+    <Copyright>Copyright © 2022 $(Company)</Copyright>
+    <Description>This does nothing useful.</Description>
+    <FileVersion>$(AssemblyVersion)</FileVersion>
+    <InformationalVersion>$(AssemblyVersion)</InformationalVersion>
+    <NeutralLanguage>en</NeutralLanguage>
+    <Product>GitHub Actions Playground</Product>
+  </PropertyGroup>
+
+  <PropertyGroup Label="NuGet package specifications">
+    <Authors>$(Company)</Authors>
+    <EmbedAllSources>true</EmbedAllSources>
+    <PackageId>GitHubActionsPlayground</PackageId>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/georg-eckert-zeiss/github-actions-playground</PackageProjectUrl>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageTags>GitHub Actions Playground</PackageTags>
+    <Version>$(InformationalVersion)</Version>
+    <RepositoryUrl>https://github.com/georg-eckert-zeiss/github-actions-playground</RepositoryUrl>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <DebugType>Full</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="..\..\LICENSE.txt">
+      <Link>LICENSE.txt</Link>
+      <Pack>true</Pack>
+      <PackagePath>/</PackagePath>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
+      <_Parameter1>$(AssemblyName).Tests</_Parameter1>
+    </AssemblyAttribute>
+  </ItemGroup>
+
+</Project>

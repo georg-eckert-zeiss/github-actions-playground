@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubActionsPlayground", "GitHubActionsPlayground\GitHubActionsPlayground.csproj", "{5E6A73E4-6F21-4DEF-9CCD-DE75FA537B30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubActionsPlayground.Tests", "GitHubActionsPlayground.Tests\GitHubActionsPlayground.Tests.csproj", "{46F80D6C-B120-4C73-977B-246B6783D02F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E6A73E4-6F21-4DEF-9CCD-DE75FA537B30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E6A73E4-6F21-4DEF-9CCD-DE75FA537B30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E6A73E4-6F21-4DEF-9CCD-DE75FA537B30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E6A73E4-6F21-4DEF-9CCD-DE75FA537B30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46F80D6C-B120-4C73-977B-246B6783D02F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46F80D6C-B120-4C73-977B-246B6783D02F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46F80D6C-B120-4C73-977B-246B6783D02F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46F80D6C-B120-4C73-977B-246B6783D02F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
