@@ -4,4 +4,5 @@ Playground for experimenting with reusable GitHub actions.
 
 The following actions exist:
 
-+ build-and-test: builds and tests the repo
++ build-and-test: builds and tests the repo, automatically triggered on pushes to main
++ 
