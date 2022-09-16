@@ -1,0 +1,16 @@
+# Workflow to build and publish the develop branch
+
+name: Build on develop
+
+on:
+  push:
+    branches: [ develop ]
+  pull_request:
+    branches: [ develop ]
+
+jobs:
+  develop:
+    uses: ZEISS-PiWeb/github-actions/.github/workflows/develop.yml@feature/Action_Configuration
+    with:
+      do_pack: false  
+    secrets: inherit
