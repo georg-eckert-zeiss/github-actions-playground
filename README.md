@@ -6,3 +6,4 @@ The following actions exist:
 
 + build-and-test: builds and tests the repo, automatically triggered on pushes to main
 + simple test commit
++ test 2
