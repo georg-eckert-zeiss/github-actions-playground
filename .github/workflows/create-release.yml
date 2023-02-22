@@ -1,10 +1,9 @@
 name: Create release (from develop only!)
 
-# Run on manual trigger only
 on:
   workflow_dispatch:
 
 jobs:
   release:
-    uses: georg-eckert-zeiss/github-actions/.github/workflows/create-release.yml@main
+    uses: georg-eckert-zeiss/playgroundactions/.github/workflows/create-release.yml@main
     secrets: inherit
