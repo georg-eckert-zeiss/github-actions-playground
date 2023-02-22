@@ -9,3 +9,4 @@ The following actions exist:
 + test 2
 + test 3
 + test 3
++ test 4
