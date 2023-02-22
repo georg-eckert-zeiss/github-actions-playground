@@ -8,7 +8,7 @@ on:
 
 jobs:
   publish-feature-branch:
-    uses: georg-eckert-zeiss/playgroundactions/.github/workflows/feature-branch.yml@main
+    uses: georg-eckert-zeiss/ghp/.github/workflows/feature-branch.yml@main
     with:
       do_pack: false  
     secrets: inherit
