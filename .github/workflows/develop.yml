@@ -8,7 +8,7 @@ on:
 
 jobs:
   develop:
-    uses: georg-eckert-zeiss/playgroundactions/.github/workflows/develop.yml@main
+    uses: georg-eckert-zeiss/ghp/.github/workflows/develop.yml@main
     with:
       do_pack: false  
     secrets: inherit
