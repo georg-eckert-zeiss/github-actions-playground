@@ -8,7 +8,7 @@ on:
 
 jobs:
   publish-feature-branch:
-    uses: ZEISS-PiWeb/github-actions/.github/workflows/feature-branch.yml@feature/Action_Configuration
+    uses: ZEISS-PiWeb/github-actions/.github/workflows/feature-branch.yml@doc/Workflow_documentation
     with:
       do_pack: false  
     secrets: inherit
