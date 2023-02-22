@@ -5,5 +5,5 @@ on:
 
 jobs:
   release:
-    uses: georg-eckert-zeiss/playgroundactions/.github/workflows/create-release.yml@main
+    uses: georg-eckert-zeiss/ghp/.github/workflows/create-release.yml@main
     secrets: inherit
