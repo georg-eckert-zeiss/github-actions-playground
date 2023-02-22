@@ -9,3 +9,4 @@ on:
 jobs:
   release:
     uses: ZEISS-PiWeb/github-actions/.github/workflows/create-release.yml@doc/Workflow_documentation
+    secrets: inherit
