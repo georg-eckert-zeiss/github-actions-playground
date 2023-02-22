@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    uses: georg-eckert-zeiss/github-actions/.github/workflows/build-and-pack.yml@main
+    uses: georg-eckert-zeiss/playgroundactions/.github/workflows/build-and-pack.yml@main
     with:
       configuration: "Release"
       do_pack: false
