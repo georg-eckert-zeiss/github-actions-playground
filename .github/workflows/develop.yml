@@ -1,5 +1,3 @@
-# Workflow to build and publish the develop branch
-
 name: Build on develop
 
 on:
@@ -10,7 +8,7 @@ on:
 
 jobs:
   develop:
-    uses: georg-eckert-zeiss/github-actions/.github/workflows/develop.yml@doc/Workflow_documentation
+    uses: github-actions/.github/workflows/develop.yml@doc/Workflow_documentation
     with:
       do_pack: false  
     secrets: inherit
