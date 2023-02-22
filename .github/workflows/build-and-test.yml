@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    uses: ZEISS-PiWeb/github-actions/.github/workflows/build-and-pack.yml@feature/Action_Configuration
+    uses: georg-eckert-zeiss/ghp/.github/workflows/build-and-pack.yml@main
     with:
       configuration: "Release"
       do_pack: false

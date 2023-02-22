@@ -1,5 +1,3 @@
-# Workflow to build and publish the develop branch
-
 name: Build on develop
 
 on:
@@ -10,7 +8,7 @@ on:
 
 jobs:
   develop:
-    uses: ZEISS-PiWeb/github-actions/.github/workflows/develop.yml@feature/Action_Configuration
+    uses: georg-eckert-zeiss/ghp/.github/workflows/develop.yml@main
     with:
       do_pack: false  
     secrets: inherit
