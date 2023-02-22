@@ -8,5 +8,5 @@ on:
 
 jobs:
   release:
-    uses: ZEISS-PiWeb/github-actions/.github/workflows/create-release.yml@doc/Workflow_documentation
+    uses: georg-eckert-zeiss/github-actions/.github/workflows/create-release.yml@doc/Workflow_documentation
     secrets: inherit
