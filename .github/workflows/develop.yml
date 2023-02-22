@@ -10,7 +10,7 @@ on:
 
 jobs:
   develop:
-    uses: ZEISS-PiWeb/github-actions/.github/workflows/develop.yml@feature/Action_Configuration
+    uses: ZEISS-PiWeb/github-actions/.github/workflows/develop.yml@doc/Workflow_documentation
     with:
       do_pack: false  
     secrets: inherit
