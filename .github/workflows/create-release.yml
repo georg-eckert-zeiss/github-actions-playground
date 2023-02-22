@@ -1,5 +1,3 @@
-# Create a stable project release. This workflow is manually triggered.
-
 name: Create release (from develop only!)
 
 # Run on manual trigger only
