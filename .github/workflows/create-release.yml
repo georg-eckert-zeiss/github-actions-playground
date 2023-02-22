@@ -8,4 +8,4 @@ on:
 
 jobs:
   release:
-    uses: ZEISS-PiWeb/github-actions/.github/workflows/create-release.yml@feature/Action_Configuration
+    uses: ZEISS-PiWeb/github-actions/.github/workflows/create-release.yml@doc/Workflow_documentation
