@@ -6,4 +6,6 @@ on:
 jobs:
   release:
     uses: georg-eckert-zeiss/ghp/.github/workflows/create-release.yml@main
+    with:
+      generate_release_notes: true
     secrets: inherit
