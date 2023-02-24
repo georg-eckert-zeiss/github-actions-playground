@@ -1,0 +1,11 @@
+name: Create release (from develop only!)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  release:
+    uses: georg-eckert-zeiss/ghp/.github/workflows/create-support-release.yml@main
+    with:
+      generate_release_notes: true
+    secrets: inherit
