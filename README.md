@@ -22,3 +22,4 @@ The following actions exist:
 support fix 1
 
 fix 2
+major change
